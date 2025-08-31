@@ -1,0 +1,24 @@
+name: education_portal
+description: Offline Class Notes app (PDFs, Reviews, Admin PIN 4209, Contact, Quotes).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts:
+  shared_preferences:
+  path_provider:
+  file_picker:
+  syncfusion_flutter_pdfviewer:
+  url_launcher:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
